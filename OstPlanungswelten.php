@@ -8,6 +8,9 @@
  * 1.0.0
  * - initial release
  *
+ * 1.0.1
+ * - added plugin configuration for the google maps api key
+ *
  * @package   OstPlanungswelten
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

@@ -35,7 +35,7 @@
     <div class="content ost-planungswelten--content">
 
         {* load google maps js *}
-        <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places&amp;v=3.exp&amp;language=de_DE&amp;key=AIzaSyANMLQUIF6p0SDXNKzs1Acb_3memSCLSW0"></script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places&amp;v=3.exp&amp;language=de_DE&amp;key={$ostPlanungsweltenConfiguration.googleMapsApiKey}"></script>
 
         {* load the iframe *}
         <iframe frameborder="0" src="https://sale.planungswelten.de/fmp/ostermann/" width="100%" height="800px" style="width: 100% !important; max-height: 800px !important;"></iframe>
