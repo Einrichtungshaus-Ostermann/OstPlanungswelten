@@ -34,5 +34,40 @@
             <description><![CDATA[Hier können Sie eine SEO Url für die Seite von Planungswelten hinterlegen. Diese Url leitet dann automatisch auf die Plugin Url weiter.<br /><b>Beispiel</b>: abverkauf<br />https://www.domain.de/abverkauf]]></description>
         </element>
 
+        <element type="text">
+            <name>seoUrlWitten</name>
+            <label>SEO Url - Witten</label>
+            <value>abverkaufwitten</value>
+            <description>...</description>
+        </element>
+
+        <element type="text">
+            <name>seoUrlRecklinghausen</name>
+            <label>SEO Url - Recklinghausen</label>
+            <value>abverkaufrecklinghausen</value>
+            <description>...</description>
+        </element>
+
+        <element type="text">
+            <name>seoUrlLeverkusen</name>
+            <label>SEO Url - Leverkusen</label>
+            <value>abverkaufleverkusen</value>
+            <description>...</description>
+        </element>
+
+        <element type="text">
+            <name>seoUrlHaan</name>
+            <label>SEO Url - Haan</label>
+            <value>abverkaufhaan</value>
+            <description>...</description>
+        </element>
+
+        <element type="text">
+            <name>seoUrlBottrop</name>
+            <label>SEO Url - Bottrop</label>
+            <value>abverkaufbottrop</value>
+            <description>...</description>
+        </element>
+
     </elements>
 </config>

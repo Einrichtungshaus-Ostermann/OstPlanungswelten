@@ -36,6 +36,19 @@ class EventMatcher
     /**
      * ...
      *
+     * @var array
+     */
+    protected $keys = [
+        'witten',
+        'recklinghausen',
+        'leverkusen',
+        'haan',
+        'bottrop'
+    ];
+
+    /**
+     * ...
+     *
      * @param array $configuration
      */
     public function __construct(array $configuration)
@@ -59,13 +72,25 @@ class EventMatcher
         // trim the slash
         $path = ltrim($path, '/');
 
-        // is this not return?!
-        if ((empty($this->configuration['seoUrl'])) || (strtolower($path) !== strtolower($this->configuration['seoUrl']))) {
-            // nothing to do
-            return null;
+        // default seo url
+        if ((!empty($this->configuration['seoUrl'])) && (strtolower($path) === strtolower($this->configuration['seoUrl']))) {
+            // reroute to planungswelten
+            return $this->route;
         }
 
-        // reroute to return
-        return $this->route;
+        // every city
+        foreach ($this->keys as $key) {
+            // set for this one?
+            if ((!empty($this->configuration['seoUrl' . ucwords($key)])) && (strtolower($path) === strtolower($this->configuration['seoUrl' . ucwords($key)]))) {
+                // reroute to planungswelten
+                return array_merge(
+                    $this->route,
+                    array('key' => $key)
+                );
+            }
+        }
+
+        // nothing to do
+        return null;
     }
 }

@@ -51,5 +51,6 @@ class Shopware_Controllers_Frontend_OstPlanungswelten extends Enlight_Controller
     {
         // assign configuration
         $this->View()->assign('ostPlanungsweltenConfiguration', $this->get('ost_planungswelten.configuration'));
+        $this->View()->assign('ostPlanungsweltenKey', $this->Request()->getParam('key'));
     }
 }

@@ -11,6 +11,9 @@
  * 1.0.1
  * - added plugin configuration for the google maps api key
  *
+ * 1.0.2
+ * - added seo urls for every location
+ *
  * @package   OstPlanungswelten
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
