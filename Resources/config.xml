@@ -22,6 +22,60 @@
             <description><![CDATA[Der Google Maps API Schlüssel.]]></description>
         </element>
 
+        <element type="text">
+            <name>planungsweltenKey</name>
+            <label>Planungswelten Schlüssel</label>
+            <value>ostermann</value>
+            <description><![CDATA[Der Planungswelten Schlüssel.]]></description>
+        </element>
+
+        <element type="text">
+            <name>apiUrl</name>
+            <label>API iFrame Url</label>
+            <value>https://sale.planungswelten.de</value>
+            <description><![CDATA[Die Url von Planungswelten.]]></description>
+        </element>
+
+        <element type="button">
+            <name>storeButton</name>
+            <label><![CDATA[<b>Verkaufshäuser Einstellungen</b>]]></label>
+        </element>
+
+        <element type="text">
+            <name>storeKeyWitten</name>
+            <label>Schlüssel - Witten</label>
+            <value>18046</value>
+            <description>...</description>
+        </element>
+
+        <element type="text">
+            <name>storeKeyRecklinghausen</name>
+            <label>Schlüssel - Recklinghausen</label>
+            <value>30963</value>
+            <description>...</description>
+        </element>
+
+        <element type="text">
+            <name>storeKeyLeverkusen</name>
+            <label>Schlüssel - Leverkusen</label>
+            <value>16834</value>
+            <description>...</description>
+        </element>
+
+        <element type="text">
+            <name>storeKeyHaan</name>
+            <label>Schlüssel - Haan</label>
+            <value>21072</value>
+            <description>...</description>
+        </element>
+
+        <element type="text">
+            <name>storeKeyBottrop</name>
+            <label>Schlüssel - Bottrop</label>
+            <value>21071</value>
+            <description>...</description>
+        </element>
+
         <element type="button">
             <name>seoButton</name>
             <label><![CDATA[<b>SEO Einstellungen</b>]]></label>

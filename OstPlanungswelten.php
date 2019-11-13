@@ -14,6 +14,9 @@
  * 1.0.2
  * - added seo urls for every location
  *
+ * 1.0.3
+ * - added company and stores to plugin configuration
+ *
  * @package   OstPlanungswelten
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
