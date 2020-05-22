@@ -17,6 +17,9 @@
  * 1.0.3
  * - added company and stores to plugin configuration
  *
+ * 1.0.4
+ * - added new planungswelten iframe
+ *
  * @package   OstPlanungswelten
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

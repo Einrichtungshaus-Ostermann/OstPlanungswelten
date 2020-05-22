@@ -34,7 +34,8 @@
     {* inner content container *}
     <div class="content ost-planungswelten--content">
 
-        {* load google maps js *}
+
+        {*
         <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places&amp;v=3.exp&amp;language=de_DE&amp;key={$ostPlanungsweltenConfiguration.googleMapsApiKey}"></script>
 
         {if $ostPlanungsweltenKey == ""}
@@ -50,6 +51,10 @@
         {elseif $ostPlanungsweltenKey == "bottrop"}
             <iframe frameborder="0" src="{$ostPlanungsweltenConfiguration.apiUrl}/fmp/{$ostPlanungsweltenConfiguration.planungsweltenKey}/?page=1&amp;fi={$ostPlanungsweltenConfiguration.storeKeyBottrop}&amp;by=date_input" width="100%" height="800px" style="width: 100% !important; max-height: 800px !important;"></iframe>
         {/if}
+        *}
+
+        <script src="https://planungswelten.de/wp-content/themes/pw/js/iframe-partnerseite.js"></script>
+        <iframe id="pwiFrame" data-source="ostermann-trends" frameborder="0" width="100%" height="0"></iframe>
 
     </div>
 
